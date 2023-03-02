@@ -1,0 +1,63 @@
+.menu-container {
+  display: grid;
+  margin-top: 8rem;
+  grid-template-columns: repeat(4, 2fr);
+  gap: 25px;
+  width: 100%;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.menu-card img {
+  width: 100%;
+  border-radius: 20px;
+}
+.menu-text {
+  padding-top: 20px;
+  text-align: left;
+  padding-left: 1rem;
+}
+.menu-card p {
+  padding-bottom: 15px;
+}
+.menu-card h2 {
+  padding-top: 2px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+.search-container {
+  max-width: 1000px;
+  margin: auto;
+  padding-top: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.input {
+  width: 100%;
+  padding: 20px;
+  outline: none;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  list-style: 25px;
+  font-size: 20px;
+  text-transform: capitalize;
+  border: 2px solid;
+  font-family: var(--font-text);
+  border-radius: 7px;
+}
+
+@media screen and (max-width: 900px) {
+  .menu-container {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .menu-container {
+    display: grid;
+    grid-template-columns: repeat(1, 2fr);
+  }
+  /* .menu-card img {
+    width: 75%;
+  } */
+}

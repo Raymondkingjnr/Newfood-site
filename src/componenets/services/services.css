@@ -1,0 +1,38 @@
+.serve-sec {
+  margin-top: 7rem;
+}
+.serve-sec h1 {
+  text-align: center;
+  font-size: 40px;
+}
+.serve-sec h3 {
+  text-align: center;
+}
+.serve-sec-gallary {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 12px;
+  justify-content: space-between;
+  padding: 7rem 5rem 0 5rem;
+}
+.serve-img {
+  width: 300px;
+  height: 300px;
+}
+
+.serve-img img {
+  width: 100%;
+  border-radius: 12px;
+}
+.serve-items p {
+  text-align: center;
+}
+@media screen and (max-width: 800px) {
+  .serve-sec-gallary {
+    justify-content: center;
+  }
+  .serve-items {
+    padding-top: 1.5rem;
+  }
+}

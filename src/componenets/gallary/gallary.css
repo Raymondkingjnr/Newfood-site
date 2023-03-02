@@ -1,0 +1,46 @@
+.gallary-header {
+  font-size: 40px;
+  text-align: center;
+  padding: 5rem;
+  letter-spacing: 0.04em;
+}
+.gallary-container {
+  width: 100%;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  overflow-x: auto;
+  -ms-overflow-style: none;
+  overscroll-behavior-inline: content;
+  scrollbar-width: none;
+}
+.gallary-container::-webkit-scrollbar {
+  display: none;
+}
+.gallary-container h2 {
+  font-size: 35px;
+  padding-bottom: 20px;
+}
+.gallary--img {
+  width: 400px;
+  height: 400px;
+  margin-bottom: 1rem;
+}
+.gallary--img img {
+  width: 100%;
+  object-fit: contain;
+  border-radius: 10px;
+}
+.gallary--imgs--container {
+  display: flex;
+  gap: 30px;
+  width: max-content;
+  flex-direction: row;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+@media screen and (max-width: 490px) {
+  .gallary--img {
+    width: 300px;
+    height: 300px;
+  }
+}

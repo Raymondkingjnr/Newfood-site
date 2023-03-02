@@ -1,0 +1,19 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  color: #fff;
+  background: var(--text-color);
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.footer h4 {
+  color: #fff;
+  line-height: 1.4;
+}
+@media screen and (max-width: 700px) {
+  .footer {
+    flex-direction: column;
+  }
+}
